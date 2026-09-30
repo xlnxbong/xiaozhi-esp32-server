@@ -47,6 +47,7 @@
 numpy
 opuslib_next
 pydub
+aiohttp
 fastapi
 uvicorn
 websockets
