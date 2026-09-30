@@ -54,6 +54,4 @@ python-dotenv
 aioconsole
 PyYAML
 httpx
-loguru
-numpy
 audioop-pp
