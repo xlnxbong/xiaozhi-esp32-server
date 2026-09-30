@@ -53,3 +53,4 @@ openai
 python-dotenv
 aioconsole
 PyYAML
+httpx
