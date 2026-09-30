@@ -46,6 +46,7 @@
 # BH added the following entries - 30-Sep-2026
 numpy
 opuslib_next
+pydub
 fastapi
 uvicorn
 websockets
