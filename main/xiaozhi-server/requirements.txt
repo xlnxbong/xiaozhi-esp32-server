@@ -51,4 +51,5 @@ websockets
 requests
 openai
 python-dotenv
+aioconsole
 
