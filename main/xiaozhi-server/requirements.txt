@@ -56,5 +56,4 @@ PyYAML
 httpx
 loguru
 numpy
-opuslib_next
 audioop-pp
