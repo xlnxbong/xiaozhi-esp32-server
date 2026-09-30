@@ -58,4 +58,4 @@ loguru
 numpy
 opuslib_next
 pydub
-pyaudioop
+audioop-lts
