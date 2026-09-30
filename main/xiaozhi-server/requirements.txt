@@ -44,7 +44,7 @@
 # BH - end of comment out entries
 
 # BH added the following entries - 30-Sep-2026
-
+numpy
 fastapi
 uvicorn
 websockets
