@@ -55,3 +55,4 @@ aioconsole
 PyYAML
 httpx
 loguru
+numpy
