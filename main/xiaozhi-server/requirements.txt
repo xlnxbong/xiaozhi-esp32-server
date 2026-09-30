@@ -57,4 +57,4 @@ httpx
 loguru
 numpy
 opuslib_next
-audioop-lts
+audioop-pp
