@@ -54,3 +54,4 @@ python-dotenv
 aioconsole
 PyYAML
 httpx
+loguru
