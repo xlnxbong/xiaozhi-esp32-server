@@ -57,5 +57,4 @@ httpx
 loguru
 numpy
 opuslib_next
-pydub
 audioop-lts
