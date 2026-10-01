@@ -64,3 +64,4 @@ portalocker
 jinja2
 bs4
 markitdown
+cnlunar
