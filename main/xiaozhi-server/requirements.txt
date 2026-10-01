@@ -17,11 +17,13 @@ opuslib_next
 pydub
 aiohttp
 jwt
-# mcp<2.0.0
+mcp<2.0.0
 portalocker
-# bs4
+bs4
+cnlunar
+psutil
+
+# HEAVY WEIGHTS :
 # markitdown
-# cnlunar
-# psutil
 # funasr
 # torch
