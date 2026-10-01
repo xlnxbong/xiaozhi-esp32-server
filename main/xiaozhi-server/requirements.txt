@@ -13,3 +13,4 @@ pycryptodome
 cryptography
 loguru
 numpy
+opuslib_next
