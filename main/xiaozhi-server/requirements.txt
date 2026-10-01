@@ -58,3 +58,4 @@ aioconsole
 PyYAML
 httpx
 loguru
+jwt
