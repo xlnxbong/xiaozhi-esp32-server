@@ -67,3 +67,4 @@ markitdown
 cnlunar
 psutil
 funasr
+torch
