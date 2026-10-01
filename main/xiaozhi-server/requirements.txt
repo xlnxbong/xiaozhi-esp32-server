@@ -16,8 +16,7 @@ numpy
 opuslib_next
 pydub
 aiohttp
-
-# jwt
+jwt
 # mcp<2.0.0
 # portalocker
 # bs4
