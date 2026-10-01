@@ -8,7 +8,7 @@ import asyncio
 import requests
 import subprocess
 import numpy as np
-import opuslib_next
+# BH excluded - import opuslib_next
 from io import BytesIO
 from core.utils import p3
 from pydub import AudioSegment
