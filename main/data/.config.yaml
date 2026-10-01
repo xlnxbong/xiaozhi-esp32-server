@@ -1,4 +1,3 @@
-# Refer to main/xiaozhi-server/data/.config.yaml needed by RENDER web service due to hard-coded path in RENDER
 # XiaoZhi AI Server Configuration Template
 server:
   listen_port: 8000
@@ -6,6 +5,10 @@ server:
 
 # OpenRouter/OpenAI Configuration
 llm:
-  api_key: "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" # "${OPENAI_API_KEY}"
-  base_url: "https://openrouter.ai/api/v1"  # "${OPENAI_BASE_URL}"
-  model: "mistralai/mistral-7b-instruct" # "${LLM_MODEL}"
+  # api_key: "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" 
+  # base_url: "https://openrouter.ai/api/v1" 
+  # model: "mistralai/mistral-7b-instruct" 
+
+  api_key:"${OPENAI_API_KEY}"
+  base_url: "${OPENAI_BASE_URL}"
+  model: "${LLM_MODEL}"
