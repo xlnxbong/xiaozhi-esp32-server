@@ -61,3 +61,4 @@ loguru
 jwt
 mcp<2.0.0
 portalocker
+jinja2
