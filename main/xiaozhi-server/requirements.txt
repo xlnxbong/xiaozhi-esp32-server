@@ -12,3 +12,4 @@ tiktoken
 pycryptodome
 cryptography
 loguru
+numpy
