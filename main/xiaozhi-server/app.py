@@ -11,6 +11,18 @@ from core.websocket_server import WebSocketServer
 from core.utils.util import check_ffmpeg_installed
 from core.utils.gc_manager import get_gc_manager
 
+# BH added
+# import sys
+from unittest.mock import MagicMock
+
+# Force the system to bypass importing heavy local AI frameworks
+sys.modules['torch'] = MagicMock()
+sys.modules['funasr'] = MagicMock()
+
+# Optional: Add common internal submodules that the code might look for
+sys.modules['torch.nn'] = MagicMock()
+sys.modules['funasr.auto_model'] = MagicMock()
+
 TAG = __name__
 logger = setup_logging()
 
