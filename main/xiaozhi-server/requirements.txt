@@ -15,3 +15,14 @@ loguru
 numpy
 opuslib_next
 pydub
+aiohttp
+
+# jwt
+# mcp<2.0.0
+# portalocker
+# bs4
+# markitdown
+# cnlunar
+# psutil
+# funasr
+# torch
