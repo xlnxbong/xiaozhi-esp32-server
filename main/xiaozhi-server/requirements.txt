@@ -59,4 +59,5 @@ PyYAML
 httpx
 loguru
 jwt
+mcp
 portalocker
