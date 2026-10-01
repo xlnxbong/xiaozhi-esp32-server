@@ -18,7 +18,7 @@ pydub
 aiohttp
 jwt
 # mcp<2.0.0
-# portalocker
+portalocker
 # bs4
 # markitdown
 # cnlunar
