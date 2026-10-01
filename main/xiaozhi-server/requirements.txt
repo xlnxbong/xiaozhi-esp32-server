@@ -66,3 +66,4 @@ bs4
 markitdown
 cnlunar
 psutil
+funasr
