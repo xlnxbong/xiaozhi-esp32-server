@@ -16,7 +16,7 @@ numpy
 opuslib_next
 pydub
 aiohttp
-jwt
+PYjwt
 mcp<2.0.0
 portalocker
 bs4
@@ -24,6 +24,6 @@ cnlunar
 psutil
 
 # HEAVY WEIGHTS :
-# markitdown
+markitdown
 # funasr
 # torch
