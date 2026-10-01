@@ -60,4 +60,5 @@ httpx
 loguru
 jwt
 mcp
+mcp-proxy
 portalocker
