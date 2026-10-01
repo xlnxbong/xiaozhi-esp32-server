@@ -1,3 +1,4 @@
+# Refer to main/xiaozhi-server/data/.config.yaml needed by RENDER web service due to hard-coded path in RENDER
 # XiaoZhi AI Server Configuration Template
 server:
   listen_port: 10000
