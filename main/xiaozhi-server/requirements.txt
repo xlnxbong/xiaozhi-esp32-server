@@ -65,3 +65,4 @@ jinja2
 bs4
 markitdown
 cnlunar
+psutil
