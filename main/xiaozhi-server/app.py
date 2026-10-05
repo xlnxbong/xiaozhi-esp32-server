@@ -90,7 +90,7 @@ async def main():
     read_config_from_api = config.get("read_config_from_api", False)
     # BH change 5-Oct-26 -  port = int(config["server"].get("http_port", 8003))
     # host = "0.0.0.0"
-    port = int(config["server"].get("http_port", 8003))
+    port = int(config["server"].get("http_port", 10000))
     if not read_config_from_api:
         logger.bind(tag=TAG).info(
             "OTA接口是\t\thttp://{}:{}/xiaozhi/ota/",
@@ -120,7 +120,7 @@ async def main():
     server_config = config.get("server", {})
     if isinstance(server_config, dict):
         #websocket_port = int(server_config.get("port", 8000))
-        websocket_port = int(server_config.get("port", 8000))
+        websocket_port = int(server_config.get("port", 10000))
 
     logger.bind(tag=TAG).info(
         "Websocket地址是\tws://{}:{}/xiaozhi/v1/",
