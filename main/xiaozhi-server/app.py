@@ -119,7 +119,8 @@ async def main():
     websocket_port = 10000
     server_config = config.get("server", {})
     if isinstance(server_config, dict):
-        websocket_port = int(server_config.get("port", 8000))
+        #websocket_port = int(server_config.get("port", 8000))
+        websocket_port = int(server_config.get("port", 10000))
 
     logger.bind(tag=TAG).info(
         "Websocket地址是\tws://{}:{}/xiaozhi/v1/",
