@@ -89,8 +89,8 @@ async def main():
 
     read_config_from_api = config.get("read_config_from_api", False)
     # BH change 5-Oct-26 -  port = int(config["server"].get("http_port", 8003))
-    host = "0.0.0.0"
-    port = int(config["server"].get("http_port", 8000))
+    # host = "0.0.0.0"
+    port = int(config["server"].get("http_port", 8003))
     if not read_config_from_api:
         logger.bind(tag=TAG).info(
             "OTA接口是\t\thttp://{}:{}/xiaozhi/ota/",
@@ -116,7 +116,7 @@ async def main():
 
     # 获取WebSocket配置，使用安全的默认值
     # BH websocket_port = 8000
-    websocket_port = 10000
+    websocket_port = 8000
     server_config = config.get("server", {})
     if isinstance(server_config, dict):
         #websocket_port = int(server_config.get("port", 8000))
