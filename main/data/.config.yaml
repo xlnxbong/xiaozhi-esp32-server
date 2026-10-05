@@ -14,5 +14,5 @@ llm:
 #  model: "${LLM_MODEL}"
 
 NETWORK:
-  OTA_VERSION_URL: "https://onrender.com"
+  OTA_VERSION_URL: "https://my-xiaozhi-backend-server.onrender.com"
   WEBSOCKET_URL: "wss://://onrender.com"
