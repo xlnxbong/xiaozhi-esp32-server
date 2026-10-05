@@ -115,7 +115,8 @@ async def main():
             config["mcp_endpoint"] = "你的接入点 websocket地址"
 
     # 获取WebSocket配置，使用安全的默认值
-    websocket_port = 8000
+    # BH websocket_port = 8000
+    websocket_port = 10000
     server_config = config.get("server", {})
     if isinstance(server_config, dict):
         websocket_port = int(server_config.get("port", 8000))
