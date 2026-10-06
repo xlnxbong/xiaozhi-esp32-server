@@ -90,7 +90,7 @@ async def main():
     read_config_from_api = config.get("read_config_from_api", False)
     # BH change 5-Oct-26 -  port = int(config["server"].get("http_port", 8003))
     # host = "0.0.0.0"
-    port = int(config["server"].get("http_port", 8000))
+    port = int(config["server"].get("http_port", 8003))
     if not read_config_from_api:
         logger.bind(tag=TAG).info(
             "OTA接口是\t\thttp://{}:{}/xiaozhi/ota/",
