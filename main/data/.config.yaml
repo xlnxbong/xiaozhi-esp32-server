@@ -2,8 +2,9 @@
 server:
   listen_port: 8000
   log_level: "INFO"
-  host: "0.0.0.0" 
-  #port: 10000     # Hardcode this to Render's default web service port number
+  #host: "0.0.0.0" 
+  #PORT: 8000     # Hardcode this to Render's default web service port number
+
 
 # Instructs the python engine to read Render's environment profile assignment directly
   port: ${PORT}
@@ -25,3 +26,4 @@ llm:
 NETWORK:
   OTA_VERSION_URL: "https://onrender.com" #"https://my-xiaozhi-backend-server.onrender.com"
   WEBSOCKET_URL: "wss://://onrender.com"
+  
