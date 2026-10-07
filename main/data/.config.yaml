@@ -1,29 +1,28 @@
+# This is a backup copy NOT IN USE
+# The active file used is - xlnxbong/xiaozhi-esp32-server/main/xiaozhi-server/data/.config.yaml
+#
 # XiaoZhi AI Server Configuration Template
 server:
-  listen_port: 8000
+  #listen_port: 8000
   log_level: "INFO"
-  #host: "0.0.0.0" 
-  #PORT: 8000     # Hardcode this to Render's default web service port number
-
-
-# Instructs the python engine to read Render's environment profile assignment directly
-  port: ${PORT}
+  host: "0.0.0.0" 
+  port: 8000     # Hardcode this to Render's default web service port number
+  #port: ${PORT} - does not pick up varaible value # Instructs the python engine to read Render's environment profile assignment directly
   
 # OpenRouter/OpenAI Configuration
 llm:
-  api_key: "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" 
-  base_url: "https://openrouter.ai/api/v1" 
-  model: "qwen/qwen3.8-27b:free" 
+ # api_key:"${OPENAI_API_KEY}"
+ #base_url: "${OPENAI_BASE_URL}"
+ #  model: "${LLM_MODEL}"
+  api_key: ${OPENAI_API_KEY} # "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" 
+  base_url: ${OPENAI_BASE_URL} # "https://openrouter.ai/api/v1" 
+  model: ${LLM_MODEL}  #"qwen/qwen3.8-27b:free" 
   system_prompt: |
     You are a helpful AI Voice assistant running on the AI-VOX3 hardware device. 
     You have access to a web search tool. If the user asks about current events, 
     real-time data, or things you do not know, you MUST use the web search tool 
     before answering.
- # api_key:"${OPENAI_API_KEY}"
-  #base_url: "${OPENAI_BASE_URL}"
-#  model: "${LLM_MODEL}"
 
 NETWORK:
   OTA_VERSION_URL: "https://onrender.com" #"https://my-xiaozhi-backend-server.onrender.com"
   WEBSOCKET_URL: "wss://://onrender.com"
-  
